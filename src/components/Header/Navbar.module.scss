@@ -1,0 +1,66 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: whitesmoke;
+  width: 100%;
+  box-shadow: 0px 2px 2px gray;
+  .body {
+    padding: 30px 20px 0 20px;
+    font-size: 20px;
+    display: flex;
+    max-width: 1110px;
+    margin: 0 auto;
+    cursor: pointer;
+    .main {
+      color: black;
+    }
+    .main:hover {
+      color: orange;
+    }
+    .mainActive {
+      color: orange;
+    }
+    .pizzas {
+      margin: 0 15px;
+      color: black;
+    }
+    .pizzas:hover {
+      color: orange;
+    }
+
+    .pizzasActive {
+      margin: 0 15px;
+      color: orange;
+    }
+    .drinks {
+      color: black;
+    }
+    .drinks:hover {
+      color: orange;
+    }
+    .drinksActive {
+      color: orange;
+    }
+    .cart {
+      margin: 0 15px;
+      color: black;
+    }
+    .cart:hover {
+      color: orange;
+    }
+    .cartActive {
+      margin: 0 15px;
+      color: orange;
+    }
+    .orders {
+      color: black;
+    }
+    .orders:hover {
+      color: orange;
+    }
+    .ordersActive {
+      color: orange;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.drinks {
+  max-width: 1110px;
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    .body {
+      width: calc(33.333% - 10px);
+      margin: 20px 5px 0 5px;
+
+      .content {
+        padding: 15px 30px;
+        border: 1px solid black;
+        height: 487px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        box-shadow: 2px 9px 3px black;
+
+        .title {
+          font-size: 24px;
+          font-weight: 900;
+        }
+        .text {
+          font-size: 17px;
+          margin: 10px 0;
+        }
+        .price {
+          font-size: 24px;
+          font-weight: 900;
+          flex: 1 1 auto;
+        }
+        button {
+          max-width: 260px;
+          height: 43px;
+          background-color: orange;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.modal.active {
+  opacity: 1;
+  pointer-events: all;
+  z-index: 100;
+}
+.content {
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  width: 800px;
+  height: 570px;
+  transform: scale(0.5);
+  transition: 0.4s all;
+}
+.content.active {
+  transform: scale(1);
+}
+.exit {
+  margin-left: 100%;
+  cursor: pointer;
+}
+.bodyCartModalWindow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titleCartModalWindow {
+  font-size: 30px;
+  font-weight: 900;
+}
+.textCartModalWindow {
+  font-size: 20px;
+  font-weight: 900;
+}
+.imageCartModalWindow {
+  width: 650px;
+  height: 450px;
+}
+.buttonCartModalWindow {
+  padding: 4px 22px;
+  width: 100px;
+  height: 30px;
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

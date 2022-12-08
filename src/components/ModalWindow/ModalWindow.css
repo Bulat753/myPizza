@@ -1,0 +1,139 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.modal.active {
+  opacity: 1;
+  pointer-events: all;
+  z-index: 100;
+}
+.content {
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  width: 800px;
+  height: 570px;
+  transform: scale(0.5);
+  transition: 0.4s all;
+}
+.content.active {
+  transform: scale(1);
+}
+.exit {
+  margin-left: 100%;
+  cursor: pointer;
+}
+.body {
+  display: flex;
+}
+.image {
+  width: 490px;
+  height: 555px;
+  margin: 0 30px 0 0;
+}
+.body__content {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 26px;
+  font-weight: 900;
+}
+.equipment {
+  font-style: italic;
+  font-size: 18px;
+  margin: 15px 0;
+}
+.text {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.without {
+  margin-bottom: 15px;
+}
+.without__name {
+  font-size: 18px;
+  margin: 0 0 0 5px;
+}
+.sizes {
+  margin-right: 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.activeSizes {
+  margin-right: 15px;
+  font-size: 19px;
+  background-color: orange;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.additions {
+  display: flex;
+  margin-top: 15px;
+}
+.additions__body {
+  width: 78px;
+  height: 148px;
+  box-shadow: rgba(6, 5, 50, 0.12) 0px 4px 20px;
+  background: rgb(255, 255, 255);
+  border-width: 1px;
+  border-radius: 12px;
+  margin-right: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+.additions__body-active {
+  border: 0.5px solid orange;
+  width: 78px;
+  height: 148px;
+  box-shadow: rgba(6, 5, 50, 0.12) 0px 4px 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 12px;
+  margin-right: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+.additions__image {
+  width: 70px;
+  width: 70px;
+}
+.additions__name {
+}
+.additions__price {
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+.amount {
+  margin-top: 10px;
+  font-size: 19px;
+  flex: 1 1 auto;
+  cursor: pointer;
+}
+.button {
+  padding: 4px 8px;
+  width: 276px;
+  height: 39px;
+  background-color: orange;
+  font-size: 18px;
+  cursor: pointer;
+}

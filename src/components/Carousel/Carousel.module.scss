@@ -1,0 +1,33 @@
+.stock {
+  .wrapper {
+    max-width: 1110px;
+    margin: 50px auto;
+    .title {
+      font-size: 24px;
+    }
+    .slider {
+      position: relative;
+      img {
+        height: 500px;
+        width: 1110px;
+      }
+      .slider__title {
+        font-size: 25px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 50px;
+        color: white;
+        padding: 0 20px;
+        background-color: black;
+      }
+      .slider__text {
+        font-size: 21px;
+        position: absolute;
+        bottom: 20px;
+        color: white;
+        padding: 0 20px;
+        background-color: black;
+      }
+    }
+  }
+}

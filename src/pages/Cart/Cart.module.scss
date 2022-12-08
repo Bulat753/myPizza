@@ -1,0 +1,144 @@
+.cart {
+  height: 100vh;
+  .wrapper {
+    max-width: 1110px;
+    margin: 40px auto;
+    .cartTitle {
+      font-size: 25px;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+    .body {
+      display: flex;
+      justify-content: space-between;
+      font-size: 22px;
+      font-weight: 900;
+      margin-bottom: 15px;
+      .text {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        .title {
+          font-size: 17px;
+          font-weight: 900;
+          font-style: normal;
+        }
+        .size {
+          font-style: italic;
+          font-weight: 400;
+          font-size: 16px;
+          margin-right: 10px;
+        }
+        .additonsTitle {
+          text-decoration: underline;
+          margin-right: 10px;
+        }
+        .withoutTitle {
+          text-decoration: underline;
+          margin-right: 10px;
+        }
+      }
+      .button {
+        .currentAmount {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 10px;
+          margin-bottom: 2px;
+          .minus {
+            padding: 4px 22px;
+            width: 22px;
+            height: 22px;
+            background-color: orangered;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .plus {
+            padding: 4px 22px;
+            width: 22px;
+            height: 22px;
+            background-color: orangered;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+        .delete {
+          padding: 4px 8px;
+          width: 100%;
+          height: 25px;
+          background-color: orangered;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+    .totalCart {
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      background-color: orangered;
+      color: white;
+      font-size: 20px;
+      align-items: center;
+      padding: 0 20px;
+      margin-bottom: 15px;
+    }
+    .titleOrderDetails {
+      font-size: 24px;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+    .orderDetails {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .floors {
+        .orderDetailsText {
+        }
+      }
+      .maskedInput {
+        border: 1px solid black;
+        border-radius: 2px;
+        width: 300px;
+        height: 25px;
+        padding: 0 5px;
+      }
+      .maskedInput:focus {
+        border: 1px solid orange;
+        border-radius: 2px;
+        width: 300px;
+        height: 25px;
+        padding: 0 5px;
+      }
+      .error {
+        color: red;
+        font-size: 12px;
+      }
+    }
+    .btnOrderDisabled {
+      margin: 10px auto;
+      width: 66px;
+      height: 18px;
+      padding: 12px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: orangered;
+      opacity: 0.5;
+    }
+    .btnOrder {
+      margin: 10px auto;
+      width: 66px;
+      height: 18px;
+      padding: 12px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: orangered;
+    }
+  }
+}
